@@ -16,6 +16,6 @@ public class ToDoListMicroserviceApplication {
     @GetMapping("/")
     public String working()
     {
-        return "I am working";
+        return "It works";
     }
 }
