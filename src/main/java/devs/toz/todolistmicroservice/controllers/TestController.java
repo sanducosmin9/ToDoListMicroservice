@@ -4,11 +4,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-
 public class TestController {
-    @GetMapping("/")
-    public String working()
-    {
+    @GetMapping("/test")
+    public String working() {
         return "It works";
-    } //Create a basic working endpoint
+    }
 }
